@@ -1,24 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-
 html {
     height: 100%;
 }
 
 body {
-    background-image: -webkit-linear-gradient(50deg, #f7f4f9 50%, #f3eef7 50%);
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center center;
+
+    background: linear-gradient(to top right, #f7f4f9 50%, #f3eef7 50%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100%;
-    margin: 0;
-    color: #741b47;
-    font-family: 'Nunito', Helvetica, Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: left;
-}
 
-.main {
-    padding: 10vw 15vw;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+    color: #741b47;
+    text-align: left;
 }
 
 a {
@@ -30,7 +27,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 h2 {
@@ -64,5 +61,10 @@ li {
 
 .item-3 {
     grid-column: 3;
+    grid-row: 1;
+}
+
+.item-4 {
+    grid-column: 4;
     grid-row: 1;
 }
