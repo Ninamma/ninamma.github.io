@@ -6,12 +6,12 @@ html {
 }
 
 body {
-    background-image: -webkit-linear-gradient(50deg, #fcb9b2 50%, #fed0bb 50%);
+    background-image: -webkit-linear-gradient(50deg, #f7f4f9 50%, #f3eef7 50%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
     margin: 0;
-    color: #461220;
+    color: #741b47;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -23,7 +23,11 @@ div {
 }
 
 a {
-    color: #8c2f39;
+    color: #a04668;
+}
+
+a:hover {
+    color: #ab4967;
 }
 
 h1 {
@@ -36,4 +40,5 @@ h2 {
 
 p {
     font-size: 24px;
+    font-weight: 600;
 }
