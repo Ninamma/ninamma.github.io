@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
 html {
     height: 100%;
 }
@@ -20,14 +21,19 @@ body {
 }
 
 a {
-    color: #a04668;
+    color: #675e68;
     text-decoration: none;
 }
 
 a:hover {
-    color: #666378;
+    color: #a04668;
     text-decoration: underline;
 }
+
+/* a:visited {
+    color: #a04668;
+
+} */
 
 h1 {
     font-size: 60px;
