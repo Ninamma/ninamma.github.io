@@ -7,7 +7,8 @@ body {
     display: grid;
     height: 100vh;
     margin: 0;
-    place-items: center center;
+    align-items: center;
+    justify-items: center;
 
     background: linear-gradient(to top right, #f7f4f9 50%, #f3eef7 50%);
     background-repeat: no-repeat;
@@ -20,10 +21,12 @@ body {
 
 a {
     color: #a04668;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #ab4967;
+    color: #666378;
+    text-decoration: underline;
 }
 
 h1 {
