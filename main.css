@@ -21,8 +21,12 @@ body {
 }
 
 a {
-    color: #675e68;
+    color: #6b6d97;
     text-decoration: none;
+}
+
+a:visited {
+    color: #ab7791;
 }
 
 a:hover {
@@ -30,17 +34,14 @@ a:hover {
     text-decoration: underline;
 }
 
-/* a:visited {
-    color: #a04668;
-
-} */
-
 h1 {
     font-size: 60px;
+    margin: 0;
 }
 
 h2 {
     font-size: 40px;
+    margin: 0;
 }
 
 p {
@@ -53,7 +54,7 @@ li {
     font-weight: 600;
 }
 
-.grid {
+.contact-grid {
     display: grid;
     text-align: center;
 }
