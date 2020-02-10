@@ -26,7 +26,7 @@ section {
 
 footer {
     text-align: center;
-    margin: 40px 0;
+    margin: 80px 0;
 }
 
 .flex-container {
@@ -38,12 +38,27 @@ footer {
    flex: auto;
 }
 
+.preferred-line-break {
+    display: inline-block;
+}
+
+/* Typography */
 h1 {
     font-size: 70px;
 }
 
 h2 {
     font-size: 55px;
+}
+
+p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+li {
+    font-size: 30px;
+    font-weight: 600;
 }
 
 a {
@@ -60,16 +75,7 @@ a:hover {
     text-decoration: underline;
 }
 
-p {
-    font-size: 40px;
-    font-weight: 600;
-}
-
-li {
-    font-size: 30px;
-    font-weight: 600;
-}
-
+/* Footer */
 .screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
@@ -84,4 +90,91 @@ li {
 svg {
     width: 50px;
     height: auto;
+}
+
+/* Responsive-ness */
+@media (max-width: 1100px) and (min-width: 601px)  {
+    footer {
+        margin: 60px 0;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 35px;
+    }
+
+    li {
+        font-size: 28px;
+    }
+
+    svg {
+        width: 45px;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 421px)  {
+    footer {
+        margin: 30px 0;
+    }
+    
+    h1 {
+        font-size: 45px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    li {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    svg {
+        width: 40px;
+    }
+}
+
+@media (max-width: 420px) and (min-width: 0px) {
+    body {
+        margin: 0 10px;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    li {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    svg {
+        width: 30px;
+    }
 }
