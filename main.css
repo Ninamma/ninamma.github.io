@@ -26,6 +26,7 @@ section {
 
 footer {
     text-align: center;
+    margin: 40px 0;
 }
 
 .flex-container {
@@ -38,11 +39,11 @@ footer {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 70px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 55px;
 }
 
 a {
@@ -60,12 +61,12 @@ a:hover {
 }
 
 p {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
 }
 
 li {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 600;
 }
 
