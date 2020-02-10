@@ -88,6 +88,7 @@ a:hover {
     position: absolute;
 }
 
+/* Lovely icons from https://github.com/danklammer/bytesize-icons */
 svg {
     width: 5rem;
     height: auto;
